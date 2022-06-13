@@ -285,3 +285,47 @@ main .insights .progress .number{
     justify-content: center;
     align-items: center;
 }
+
+/*
+===========================
+RECENT ORDERS
+===========================
+*/
+
+main .recent__orders{
+    margin-top: 2rem;
+}
+
+main .recent__orders h2{
+    margin-bottom: 0.8rem;
+}
+
+main .recent__orders table{
+    background: white;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1.8rem;
+    text-align: center;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18) ;
+}
+
+main .recent__orders table:hover{
+    box-shadow: none;
+}
+
+main table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid rgba(132, 139, 200, 0.18);
+    color: #363949;
+}
+
+main table tbody tr:last-child td{
+    border: none;
+}
+
+main .recent__orders a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: #7380ec;
+}
