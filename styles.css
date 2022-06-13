@@ -329,3 +329,172 @@ main .recent__orders a{
     margin: 1rem auto;
     color: #7380ec;
 }
+
+/*
+===========================
+LOGIN / Night-mode Toggle
+===========================
+*/
+
+.profile__photo{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+.right{
+    margin-top: 1.4rem;
+}
+
+.top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+#menu__btn{
+    display: none;
+}
+
+.theme__toggle{
+    background: rgba(132, 139, 200, 0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+.theme__toggle span{
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme__toggle span.active{
+    background: #7380ec;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+.profile{
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+/*
+===========================
+RECENT UPDATES
+===========================
+*/
+
+.recent__updates {
+    margin-top: 1rem;
+}
+
+.recent__updates h2{
+    margin-bottom: 0.8rem;
+}
+
+.updates{
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18) ;
+    transition: all 300ms ease;
+}
+
+.updates:hover:hover{
+    box-shadow: none;
+}
+
+.update{
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*
+===========================
+SALES ANALYTICS
+===========================
+*/
+
+.danger{
+    color: red;
+}
+
+.sales__analytics{
+    margin-top: 2rem;
+}
+
+.sales__analytics h2{
+    margin-bottom: 0.8rem;
+}
+
+.item{
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 1.4rem 1.8rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18) ;
+    transition: all 300ms ease;
+}
+
+.sales__analytics .item:hover{
+    box-shadow: none;
+}
+
+.sales__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+}
+
+.icon{
+    padding: 0.6rem;
+    color: white;
+    border-radius: 50%;
+    background: #7380ec;
+    display: flex;
+}
+
+.offline .icon{
+    background: #ff7782;
+}
+
+.customers .icon{
+    background: #41f1b6;
+}
+
+.add__product{
+    background: transparent;
+    border: 2px dashed #7380ec;
+    color: #7380ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add__product div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.add__product h3{
+    font-weight: 600;
+}
