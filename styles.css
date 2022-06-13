@@ -564,7 +564,7 @@ MEDIA QUERIES - MOBILES
     }
     aside {
         position: fixed;
-        left: 0;
+        left: -100%;
         background: white;
         width: 18rem;
         z-index: 3;
@@ -572,6 +572,13 @@ MEDIA QUERIES - MOBILES
         height: 100vh;
         padding-right: 1.8rem;
         display: none;
+        animation: showMenu 400ms ease forwards;
+    }
+
+    @keyframes showMenu {
+        to {
+            left: 0;
+        }
     }
 
     aside .logo h2{
