@@ -357,32 +357,6 @@ LOGIN / Night-mode Toggle
     display: none;
 }
 
-.theme__toggle{
-    background: rgba(132, 139, 200, 0.18);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 1.6rem;
-    width: 4.2rem;
-    cursor: pointer;
-    border-radius: 0.4rem;
-}
-
-.theme__toggle span{
-    font-size: 1.2rem;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.theme__toggle span.active{
-    background: #7380ec;
-    color: white;
-    border-radius: 0.4rem;
-}
-
 .profile{
     display: flex;
     gap: 2rem;
