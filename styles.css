@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.9rem;
+    background: #f6f6f9;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+a{
+    color: #363949;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 0.9rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+h5{
+    font-size: 0.5rem;
+}
+
+small{
+    font-size: 0.7rem;
+}
+
+.text-muted {
+    color: #7d8da1;
+}
+
+p{
+    color: #677483;
+}
+
+.primary{
+    color: #7380ec;
+}
+.success{
+    color: #41f1b6;
+}
+.warning{
+    color: #ffbb55;
+}
+
+/*
+===========================
+SIDEBAR
+===========================
+*/
