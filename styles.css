@@ -414,6 +414,10 @@ SALES ANALYTICS
     margin-bottom: 0.8rem;
 }
 
+.sales__analytics h5{
+    font-size: 12px;
+}
+
 .item{
     background: white;
     display: flex;
